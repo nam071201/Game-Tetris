@@ -1,7 +1,7 @@
 # Tetris
-Hey there! This is a project that I coded as my AP Computer Science final in 2018. It's a simple Tetris game in Java (Tetris-Client directory), with 1 player and 2 player options. In order to enable 2 player gameplay, you need the Tetris Node.js server that I created along with it (Tetris-Server directory).
+Đây là dự án mà tôi mã hóa là môn cuối cùng của AP Computer Science vào năm 2021. Đó là một trò chơi Tetris đơn giản trong Java (thư mục Tetris-Client), với tùy chọn 1 người chơi và 2 người chơi. Để cho phép chơi 2 người chơi, bạn cần có máy chủ Tetris Node.js mà tôi đã tạo cùng với nó (thư mục Tetris-Server). 
 
-This is by _no_ means supposed to be at any production level, just meant to be a simple game to host on a local network with friends. It has no security and the IP is hard-coded into the source code.
+Đây là _no_ có nghĩa là được cho là ở bất kỳ cấp độ sản xuất nào, chỉ có nghĩa là một trò chơi đơn giản để lưu trữ trên mạng cục bộ với bạn bè. Nó không có bảo mật và IP được mã hóa cứng thành mã nguồn. 
 
 ## Gameplay
 ### Controls
@@ -13,26 +13,26 @@ This is by _no_ means supposed to be at any production level, just meant to be a
 * **Escape** — Pause game
 
 ### Multiplayer functionality
-Two players are playing Tetris at the same time. Each time break a row, your opponent gets a "stale row" or a row of gray blocks at the bottom of their screen, effectively giving them less space to play. If you break a row and you already have stale rows at the bottom of your screen, each row you break will first remove those stale rows before they are given to the opponent. The first person to hit the top loses.
+Hai người chơi đang chơi Tetris cùng một lúc. Mỗi lần phá vỡ một hàng, đối thủ của bạn sẽ nhận được một "hàng cũ" hoặc một hàng khối màu xám ở cuối màn hình của họ, giúp họ có ít không gian hơn để chơi. Nếu bạn ngắt một hàng và bạn đã có các hàng cũ ở cuối màn hình, thì mỗi hàng bạn ngắt trước tiên sẽ xóa các hàng cũ đó trước khi chúng được đưa cho đối thủ. Người đầu tiên lên đỉnh thua cuộc. 
 
 ## Installation
 ### Set Up Server
-In order to set up the Node.js server, find your favorite environment and run this command in the `Tetris-Server` directory:
+Để thiết lập máy chủ Node.js, hãy tìm môi trường yêu thích của bạn và chạy lệnh này trong thư mục `Tetris-Server`: 
 ```bash
 npm install
 ```
 
-Now you're ready to run the server:
+Bây giờ bạn đã sẵn sàng để chạy máy chủ: 
 ```bash
 node index.js
 ```
 
-It should tell you the port that it's running on in the console, which is port `4444`. Make note of the host's IP or domain, because you'll need to add this to the Tetris Client before you compile its source code. If you want to access it out of the scope of your local network, make sure you port-forward your network.
+Nó sẽ cho bạn biết cổng mà nó đang chạy trên bảng điều khiển, đó là cổng `4444`. Ghi lại IP hoặc tên miền của máy chủ lưu trữ, vì bạn sẽ cần thêm tên miền này vào Ứng dụng khách Tetris trước khi biên dịch mã nguồn của nó. Nếu bạn muốn truy cập nó ngoài phạm vi mạng cục bộ của mình, hãy đảm bảo rằng bạn đã chuyển tiếp mạng của mình. 
 
 ### Set Up Client
-In the `Tetris-Client` directory, find line 19 in the file `src/InternetUtilities.java`. Change the text from `YOUR-IP-HERE.COM` to your IP or domain name.
+Trong thư mục `Tetris-Client`, tìm dòng 19 trong tệp` src / InternetUtilities.java`. Thay đổi văn bản từ `YOUR-IP-HERE.COM` thành IP hoặc tên miền của bạn. 
 
-Now you're ready to compile and run your Tetris Client.
+Bây giờ bạn đã sẵn sàng để biên dịch và chạy Ứng dụng khách Tetris của mình. 
 
 ## Images
 ### Title screen
