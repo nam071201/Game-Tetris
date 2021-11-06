@@ -1,5 +1,5 @@
 # Tetris
-Đây là dự án mà tôi mã hóa là môn cuối cùng của AP Computer Science vào năm 2021. Đó là một trò chơi Tetris đơn giản trong Java (thư mục Tetris-Client), với tùy chọn 1 người chơi và 2 người chơi. Để cho phép chơi 2 người chơi, bạn cần có máy chủ Tetris Node.js mà tôi đã tạo cùng với nó (thư mục Tetris-Server). 
+Đây là dự án mà tôi mã hóa là môn học Lập Trình Mạng của Trường Đại Học Công Nghệ Thông Tin Và Truyền Thông Việt - Hàn. Đó là một trò chơi Tetris đơn giản trong Java (thư mục Tetris-Client), với tùy chọn 1 người chơi và 2 người chơi. Để cho phép chơi 2 người chơi, bạn cần có máy chủ Tetris Node.js mà tôi đã tạo cùng với nó (thư mục Tetris-Server). 
 
 Đây là _no_ có nghĩa là được cho là ở bất kỳ cấp độ sản xuất nào, chỉ có nghĩa là một trò chơi đơn giản để lưu trữ trên mạng cục bộ với bạn bè. Nó không có bảo mật và IP được mã hóa cứng thành mã nguồn. 
 
