@@ -39,7 +39,5 @@ Bây giờ bạn đã sẵn sàng để biên dịch và chạy Ứng dụng kh�
 ![Title screen](https://i.imgur.com/7m7Zz7T.png)
 ### One player screen
 ![One player screen](https://i.imgur.com/Zp9XdO2.png)
-### Instructions
-![Instructions](https://i.imgur.com/CZ9L6qe.png)
 ### Two player screen
 ![Two player screen](https://i.imgur.com/SmOGDxJ.png)
